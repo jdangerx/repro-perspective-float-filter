@@ -1,7 +1,7 @@
 {
     "name": "repro-perspective-float-filter",
     "private": true,
-    "version": "3.1.8",
+    "version": "0.1",
     "description": "perspective bug repro: filtering by float",
     "scripts": {
         "build": "node build.js",
@@ -9,14 +9,14 @@
     },
     "keywords": [],
     "dependencies": {
-        "@finos/perspective": "^3.1.8",
-        "@finos/perspective-viewer": "^3.1.8",
-        "@finos/perspective-viewer-d3fc": "^3.1.8",
-        "@finos/perspective-viewer-datagrid": "^3.1.8",
+        "@finos/perspective": "3.2.0",
+        "@finos/perspective-viewer": "3.2.0",
+        "@finos/perspective-viewer-d3fc": "3.2.0",
+        "@finos/perspective-viewer-datagrid": "3.2.0",
         "apache-arrow": "^18.1.0"
     },
     "devDependencies": {
-        "@finos/perspective-esbuild-plugin": "^3.1.8",
+        "@finos/perspective-esbuild-plugin": "3.2.0",
         "esbuild": "0.24.0",
         "http-server": "^14.1.1"
     }
