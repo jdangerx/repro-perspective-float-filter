@@ -13,9 +13,9 @@ const viewer = document.getElementsByTagName("perspective-viewer")[0];
 let table;
 
 const tableData = arrow.tableFromArrays({
-  id: Int32Array.from([1, 2, 3]),
-  name: ['Alice', 'Bob', 'Charlie'],
-  score: Float32Array.from([92.5, 87.3, 95.8])
+   date: arrow.vectorFromArray([20089], new arrow.Date_())
 });
+
+
 table = await perspectiveWorker.table(arrow.tableToIPC(tableData));
 viewer.load(table);
